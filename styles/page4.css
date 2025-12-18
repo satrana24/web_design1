@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+:root {
+    --primary-color: #37414D;
+    --accent-color: #D0EC63;
+    --pink-color: #CD9AFF;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 85rem !important;
+    padding: 0;
+}
+
+
+
+.header-courses {
+    margin-top: 3.5rem;
+    width: 100%;
+}
+
+.nav-courses {
+    width: 100%;
+    max-width: 85rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-courses .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 8.625rem;
+    flex-wrap: wrap;
+}
+
+.nav-courses .nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-courses .nav-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4.25rem;
+}
+
+.nav-courses .logo {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #37414D;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-courses .nav-menu a {
+    color: #37414D;
+    text-decoration: none;
+    font-size: 1.125rem;
+    transition: color 0.3s;
+}
+
+.nav-courses .nav-menu a:hover {
+    color: #D0EC63;
+}
+
+.nav-courses .btn-trial {
+    background: #D0EC63;
+    color: #37414D;
+    border: 1px solid #D0EC63;
+    padding: 0.75rem 1rem;
+    border-radius: 1.875rem;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.125rem;
+    transition: all 0.3s;
+    white-space: nowrap;
+}
+
+.nav-courses .btn-trial:hover {
+    background: transparent;
+    color: #D0EC63;
+    border: 1px solid #D0EC63;
+}
+
+.nav-courses .lk-icon {
+    color: #37414D;
+    transition: color 0.3s;
+}
+
+.nav-courses .lk-icon:hover {
+    color: #D0EC63;
+}
+
+.logo:hover {
+    color: #D0EC63;
+}
+
+
+
+
+.main-content {
+    margin-top: 6.25rem;
+}
+
+.course-subtitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.course-title {
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+.course-description {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.course-stats {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.course-stats p {
+    margin: 0;
+}
+
+.detail-item {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    opacity: 0.5;
+    white-space: nowrap;
+}
+
+.price-main {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+.price-period {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-top: 1rem;
+}
+
+.btn-enroll {
+    background: var(--accent-color);
+    color: var(--primary-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 0.625rem;
+    padding: 1rem 3.34rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-enroll:hover {
+    background: transparent;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+.course-photo-container {
+    height: 37.188rem;
+    width: 100%;
+    max-width: 34.688rem;
+    overflow: hidden;
+    border-radius: 1.625rem;
+    background-color: var(--pink-color);
+    margin-left: auto;
+}
+
+.course-photo-container img {
+    width: 100%;
+    height: 140%;
+    object-fit: cover;
+}
+
+
+
+
+.program-section {
+    margin-top: 6.25rem;
+    padding: 0;
+}
+
+.program-title {
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: var(--primary-color);
+    margin-bottom: 3.125rem;
+}
+
+.stage-nav-btn {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    opacity: 0.5;
+    padding: 0.6rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.625rem;
+    text-align: left;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.stage-nav-btn:hover {
+    opacity: 1;
+}
+
+.stage-nav-btn.active {
+    background-color: var(--accent-color);
+    opacity: 1;
+    color: var(--primary-color);
+}
+
+.tasks-card {
+    background-color: var(--primary-color);
+    border-radius: 1.625rem;
+    padding: 3rem 2.5rem;
+}
+
+.stage-content {
+    display: none;
+}
+
+.stage-content.active {
+    display: block;
+}
+
+.task-item {
+    margin-bottom: 2.25rem !important;
+}
+
+.task-item:last-child {
+    margin-bottom: 0 !important;
+}
+
+.task-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.task-number {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+
+
+
+.main-footer {
+    background-color: #37414D;
+    width: 100%;
+    max-width: 85rem;
+    min-height: 21.875rem;
+    margin: 6.25rem auto 1.5rem auto;
+    border-radius: 3.125rem;
+    padding: 0 7.188rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer-block {
+    position: static;
+    flex: 1;
+    min-width: 12.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 0.625rem;
+    text-decoration: none;
+}
+
+.footer-block a.footer-item {
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.footer-block a.footer-item:hover {
+    color: #D0EC63;
+}
+
+.block-1 .footer-item:first-child,
+.block-2 .footer-item:first-child,
+.block-3 .footer-item:first-child {
+    margin-top: 0;
+}
+
+.block-1 {
+    width: 10.75rem;
+    margin-top: 4rem;
+}
+
+.block-1 .footer-item {
+    margin-bottom: 0.813rem;
+}
+
+.block-2 {
+    width: 12.75rem;
+}
+
+.block-2 .footer-item {
+    margin-bottom: 0.625rem;
+}
+
+.block-2 .footer-item:first-child {
+    margin-top: 4rem;
+}
+
+.block-3 {
+    width: 12.25rem;
+}
+
+.block-3 .footer-item:first-child {
+    margin-top: 4rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 0.625rem;
+}
+
+.social-icon {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #D0EC63;
+}
+
+.footer-unica {
+    position: absolute;
+    left: 7.188rem;
+    bottom: 2.75rem;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.footer-copyright {
+    position: absolute;
+    bottom: 2.75rem;
+    right: 7.188rem;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+#contactModal .modal-dialog {
+    max-width: 35.375rem;
+    margin: 0 auto;
+}
+
+#contactModal .custom-modal {
+    background-color: #37414D;
+    border-radius: 1.625rem;
+    padding: 3.75rem;
+    width: 35.375rem;
+    height: 30.5rem;
+    box-sizing: border-box;
+}
+
+#contactModal .modal-body {
+    padding: 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactModal .contact-title {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: white;
+    margin-bottom: 3.75rem;
+}
+
+#contactModal .form-group {
+    margin-bottom: 1.5rem;
+}
+
+#contactModal .custom-input {
+    height: 3.5rem;
+    width: 27.813rem;
+    border-radius: 0.625rem;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#contactModal .custom-input::placeholder {
+    color: rgba(55, 65, 77, 0.5);
+    
+}
+
+#contactModal .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.75rem;
+}
+
+#contactModal .btn-submit {
+    background-color: #D0EC63;
+    color: #37414D;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0.625rem 2.5rem;
+    border: 1px solid #D0EC63;
+    border-radius: 0.625rem;
+}
+
+#contactModal .btn-submit:hover {
+    background-color: transparent;
+    border: 1px solid #D0EC63;
+    color: #D0EC63;
+}
+
+#contactModal .btn-cancel {
+    background-color: transparent;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0.625rem 2.5rem;
+    border: 1px solid white;
+    border-radius: 0.625rem;
+}
+
+#contactModal .btn-cancel:hover {
+    background-color: white;
+    color: #37414D;
+}
+
+
+
+#thankYouModal .modal-dialog {
+    max-width: 45.75rem;
+    margin: 0 auto;
+}
+
+#thankYouModal .thank-you-modal {
+    background-color: #37414D;
+    border-radius: 1.625rem;
+    width: 45.75rem;
+    height: 22.688rem;
+    box-sizing: border-box;
+    padding: 3.75rem 3.75rem;
+}
+
+#thankYouModal .modal-body {
+    padding: 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#thankYouModal .thank-you-title {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#thankYouModal .thank-you-text-1 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+#thankYouModal .thank-you-text-2 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#thankYouModal .thank-you-text-3 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}

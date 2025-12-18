@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNICA Подробнее о курсе</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/page4.css">
+</head>
+<body>
+
+    <header class="header-courses">
+        <nav class="nav-courses">
+            <div class="nav-left">
+                <a href="index.html" class="logo">UNICA</a>
+                <ul class="nav-menu">
+                    <li><a href="page2.html">КУРСЫ</a></li>
+                    <li><a href="page3.html">РЕПЕТИТОРЫ</a></li>
+                    <li><a href="#">ПРОФОРИЕНТАЦИЯ</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-right">
+                <button class="btn-trial" data-bs-toggle="modal" data-bs-target="#contactModal">
+                        Пробный урок
+                    </button>
+                <a href="#" class="lk-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+                        <path fill="currentColor" d="M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 2a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m0 7c2.67 0 8 1.33 8 4v3H4v-3c0-2.67 5.33-4 8-4m0 1.9c-2.97 0-6.1 1.46-6.1 2.1v1.1h12.2V17c0-.64-3.13-2.1-6.1-2.1"/>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container main-content">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="course-info">
+                    <p class="course-subtitle mb-2">Курс подготовки к ЕГЭ по профильной математике</p>
+                    <h1 class="course-title mb-4">ИКС-ИГРЕК С ЕВОЙ<br>КОРНЮК</h1>
+                    
+                    <p class="course-description mb-4">
+                        Новейший курс подготовки к ЕГЭ по профильной математике, сочетающий в себе как работу с простыми дробями, так и решение сложных тригонометрических уравнений. Преподаватель Ева Корнюк с семилетним опытом репетиторства познакомит тебя с предметом и научит не бояться его.
+                    </p>
+                    
+                    <div class="course-stats mb-4">
+                        <p class="mb-1">— 21 стобалльник</p>
+                        <p>— 415 учеников с баллом 80+</p>
+                    </div>
+                    
+                    <div class="course-details mb-4">
+                        <div class="row g-4">
+                            <div class="col-auto">
+                                <div class="detail-item">5 сентября — 31 мая</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="detail-item">4 урока в неделю</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="detail-item">вебинары, д/з и чек-листы</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="course-price mb-4">
+                        <div class="d-flex align-items-center">
+                            <span class="price-main">₽4800</span>
+                            <span class="price-period ms-2">/месяц</span>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-enroll" data-bs-toggle="modal" data-bs-target="#contactModal">
+                        Записаться
+                    </button>
+
+                    <div class="modal fade" id="contactModal" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content custom-modal">
+                                <div class="modal-body">
+                                    <div class="contact-title">КОНТАКТНЫЕ ДАННЫЕ</div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control custom-input" placeholder="Имя">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control custom-input" placeholder="Телефон">
+                                    </div>
+
+                                    <div class="button-group">
+                                        <button type="button" class="btn btn-submit" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#thankYouModal">
+                                            Записаться
+                                        </button>
+
+                                        <button type="button" class="btn btn-cancel" data-bs-dismiss="modal">Отменить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="thankYouModal" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content thank-you-modal">
+                                <div class="modal-body">
+                                    <div class="thank-you-title">СПАСИБО!</div>
+                                    <div class="thank-you-text-1">Вы успешно записались на пробный урок</div>
+                                    <div class="thank-you-text-2">Проверьте доступ к личному кабинету</div>
+                                    <div class="thank-you-text-3">Если возникнут проблемы — обратитесь к менеджеру<br>через наши социальные сети</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-5 offset-lg-1">
+                <div class="course-photo-container">
+                    <img src="img/ева_корнюк-no-bg-preview_(carve.photos).png" alt="Ева Корнюк">
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="program-section">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="program-title">ПРОГРАММА КУРСА</h2>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-3 mb-4 mb-lg-0"> 
+                    <div class="stage-nav">
+                        <button class="stage-nav-btn active" data-stage="1">1 этап: сентябрь-октябрь</button>
+                        <button class="stage-nav-btn" data-stage="2">2 этап: октябрь-ноябрь</button>
+                        <button class="stage-nav-btn" data-stage="3">3 этап: ноябрь-декабрь</button>
+                        <button class="stage-nav-btn" data-stage="4">4 этап: декабрь-январь</button>
+                        <button class="stage-nav-btn" data-stage="5">5 этап: январь-февраль</button>
+                        <button class="stage-nav-btn" data-stage="6">6 этап: февраль-март</button>
+                        <button class="stage-nav-btn" data-stage="7">7 этап: март-апрель</button>
+                        <button class="stage-nav-btn" data-stage="8">8 этап: апрель-май</button>
+                        <button class="stage-nav-btn" data-stage="9">9 этап: май</button>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7 offset-lg-2"> 
+                    <div class="tasks-card ms-auto"> 
+                        <div class="stage-content active" id="stage1"> 
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Работа с дробями</div>
+                                <div class="col-3 text-start"> 
+                                    <div class="task-number">Задание 14</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Работа с процентами</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задания 7, 13</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Решение уравнений</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 9</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Решение уравнений</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 9</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Решение уравнений</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 9</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Простые текстовые задачи</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 22</div>
+                                </div>
+                            </div>
+                            <div class="task-item row align-items-center">
+                                <div class="col task-name">Свойства логарифмов</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 8</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="stage-content" id="stage2">
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Тригонометрия. Основы</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 5</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Производные функций</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 7</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Планиметрия</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 16</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Стереометрия. Основы</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 13</div>
+                                </div>
+                            </div>
+                            <div class="task-item row align-items-center">
+                                <div class="col task-name">Теория вероятностей</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 4</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="stage-content" id="stage3">
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Сложные уравнения</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 12</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Параметры</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 18</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Неравенства</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 15</div>
+                                </div>
+                            </div>
+                            <div class="task-item row align-items-center">
+                                <div class="col task-name">Функции и графики</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 11</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="stage-content" id="stage4">
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Тригонометрические уравнения</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 12</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Геометрия</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 14</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Углублённая геометрия</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 16</div>
+                                </div>
+                            </div>
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Экономическая задача</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 17</div>
+                                </div>
+                            </div>
+                            <div class="task-item row align-items-center">
+                                <div class="col task-name">Стереометрия. Расчёты</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задание 13</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="stage-content" id="stage5">
+                            <div class="task-item mb-4 row align-items-center">
+                                <div class="col task-name">Повторение алгебры</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задания 1-8</div>
+                                </div>
+                            </div>
+                            <div class="task-item row align-items-center">
+                                <div class="col task-name">Повторение геометрии</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задания 13-16</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="stage-content" id="stage6">
+                            <div class="task-item row align-items-center">
+                                <div class="col task-name">Пробные варианты</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Полный вариант</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="stage-content" id="stage7">
+                            <div class="task-item row align-items-center">
+                                <div class="col task-name">Интенсив по задачам</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Задания 13-19</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="stage-content" id="stage8">
+                            <div class="task-item row align-items-center">
+                                <div class="col task-name">Финальное повторение</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Все задания</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="stage-content" id="stage9">
+                            <div class="task-item row align-items-center">
+                                <div class="col task-name">Психологическая подготовка</div>
+                                <div class="col-3 text-start">
+                                    <div class="task-number">Советы и стратегии</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="main-footer">
+        <div class="footer-block block-1">
+            <a href="index.html" class="footer-item">ГЛАВНАЯ</a>
+            <a href="page2.html" class="footer-item">КУРСЫ</a>
+            <a href="page3.html" class="footer-item">РЕПЕТИТОРЫ</a>
+            <a href="#" class="footer-item">ПРОФОРИЕНТАЦИЯ</a>
+        </div>
+        <div class="footer-block block-2">
+            <div class="footer-item">О НАС</div>
+            <a href="#" class="footer-item">Партнёрская программа</a>
+            <a href="#" class="footer-item">Правовая информация</a>
+            <a href="#" class="footer-item">Сведения<br>об образовательной<br>организации</a>
+        </div>
+        <div class="footer-block block-3">
+            <div class="footer-item contacts-title">КОНТАКТЫ</div>
+            <div class="footer-item phone">+7-777-777-77-77</div>
+            <div class="footer-item email">coolschool@pochta.ru</div>
+            <div class="social-icons">
+                <a href="#" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M22.54 6.42a2.77 2.77 0 0 0-1.945-1.957C18.88 4 12 4 12 4s-6.88 0-8.595.463A2.77 2.77 0 0 0 1.46 6.42C1 8.148 1 11.75 1 11.75s0 3.602.46 5.33a2.77 2.77 0 0 0 1.945 1.958C5.121 19.5 12 19.5 12 19.5s6.88 0 8.595-.462a2.77 2.77 0 0 0 1.945-1.958c.46-1.726.46-5.33.46-5.33s0-3.602-.46-5.33ZM9.75 15.021V8.48l5.75 3.271z"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                    <path fill="currentColor" fill-rule="evenodd" d="M23.405 16.865a11.4 11.4 0 0 0-2.123-2.964a16 16 0 0 0-.905-.94l-.038-.037a19 19 0 0 1-.346-.344a29.7 29.7 0 0 0 3.01-5.238l.033-.074l.023-.078c.109-.363.233-1.053-.207-1.677c-.456-.644-1.185-.76-1.674-.76h-2.247a2.23 2.23 0 0 0-2.19 1.442a17.5 17.5 0 0 1-1.806 3.271V6.833c0-.34-.032-.91-.397-1.39c-.436-.576-1.067-.69-1.505-.69H9.467a1.813 1.813 0 0 0-1.85 1.682l-.003.045v.045c0 .485.192.843.346 1.068c.069.101.142.193.189.251l.01.013c.05.062.083.103.116.149c.088.118.213.302.249.776v1.473a19.8 19.8 0 0 1-1.751-3.792l-.008-.022l-.008-.021c-.122-.319-.317-.783-.708-1.137c-.456-.415-.996-.53-1.487-.53h-2.28c-.497 0-1.096.116-1.543.587C.3 5.804.25 6.36.25 6.654v.134l.028.13a19.4 19.4 0 0 0 3.801 8.02a10.15 10.15 0 0 0 7.893 4.692l.041.003h.042c.726 0 1.483-.063 2.052-.442c.767-.512.828-1.297.828-1.689v-1.138c.197.16.441.374.74.662c.362.362.65.676.897.95l.132.146c.192.214.381.425.553.598c.216.217.483.456.817.633c.363.191.744.278 1.148.278h2.281c.481 0 1.17-.114 1.655-.676c.528-.612.488-1.363.322-1.902l-.03-.097zm-5.72.106a26 26 0 0 0-.957-1.014l-.003-.003c-1.357-1.308-1.99-1.535-2.438-1.535c-.239 0-.502.026-.673.24a.8.8 0 0 0-.147.348a2.5 2.5 0 0 0-.032.444v2.051c0 .255-.042.362-.16.44c-.157.105-.492.19-1.211.19a8.65 8.65 0 0 1-6.752-4.052l-.008-.013l-.01-.012A17.9 17.9 0 0 1 1.75 6.63c.004-.13.032-.209.078-.257c.047-.05.162-.12.454-.12h2.28c.253 0 .385.056.48.141c.106.098.2.263.312.557c.56 1.646 1.316 3.186 2.033 4.318c.358.565.71 1.036 1.028 1.369c.159.166.314.304.463.402c.143.094.306.169.474.169c.088 0 .191-.01.29-.053a.52.52 0 0 0 .25-.232c.103-.188.132-.465.132-.828V8.723c-.053-.818-.3-1.279-.54-1.606a6 6 0 0 0-.15-.193l-.013-.016a3 3 0 0 1-.122-.16a.4.4 0 0 1-.085-.214a.313.313 0 0 1 .324-.282h3.595c.206 0 .275.05.31.097c.05.065.092.2.092.484v4.528c0 .538.248.902.608.902c.414 0 .713-.251 1.235-.773l.009-.01l.008-.009a19 19 0 0 0 2.84-4.722l.004-.012a.73.73 0 0 1 .74-.485h2.3c.312 0 .414.08.448.127c.035.05.06.157 0 .367a28.2 28.2 0 0 1-3.029 5.2l-.008.012c-.115.177-.242.373-.26.597c-.02.242.084.461.267.697c.133.196.408.465.687.738l.026.026c.292.286.609.596.863.896l.007.007l.007.008a9.9 9.9 0 0 1 1.865 2.586c.076.26.03.394-.03.463c-.069.08-.224.155-.518.155h-2.282a.9.9 0 0 1-.447-.105a2 2 0 0 1-.454-.364c-.143-.143-.298-.316-.488-.527z" clip-rule="evenodd"/>
+                </svg>
+                </a>
+                <a href="#" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 5L2 12.5l7 1M21 5l-2.5 15L9 13.5M21 5L9 13.5m0 0V19l3.249-3.277"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer-unica">UNICA</div>
+        <p class="footer-copyright">&copy;Unica, 2019-2025</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const stageButtons = document.querySelectorAll('.stage-nav-btn');
+            const stageContents = document.querySelectorAll('.stage-content');
+
+            stageButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    stageButtons.forEach(btn => btn.classList.remove('active'));
+                    stageContents.forEach(content => content.classList.remove('active'));
+
+                    this.classList.add('active');
+                    const stageId = this.getAttribute('data-stage');
+                    document.getElementById(`stage${stageId}`).classList.add('active');
+                });
+            });
+        });
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
