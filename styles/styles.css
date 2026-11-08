@@ -981,3 +981,103 @@ body {
     color: rgba(255, 255, 255, 0.7);
     text-align: center;
 }
+
+.feedback-section {
+    width: 100%;
+    max-width: 85rem;
+    margin: 6.25rem auto 0;
+    padding: 4rem 7.188rem;
+    box-sizing: border-box;
+    background-color: #37414D;
+    border-radius: 3.125rem;
+}
+
+.feedback-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.feedback-info {
+    max-width: 32rem;
+}
+
+.feedback-title {
+    color: white;
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin: 0 0 1.5rem;
+}
+
+.feedback-description {
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.feedback-form {
+    width: 100%;
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.feedback-group input,
+.feedback-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 1.25rem;
+    border: none;
+    border-radius: 0.625rem;
+    background-color: white;
+    color: #37414D;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.125rem;
+    outline: none;
+}
+
+.feedback-group input {
+    height: 3.5rem;
+}
+
+.feedback-group textarea {
+    min-height: 9rem;
+    resize: vertical;
+}
+
+.feedback-group input:focus,
+.feedback-group textarea:focus {
+    outline: 2px solid #D0EC63;
+}
+
+.feedback-group input::placeholder,
+.feedback-group textarea::placeholder {
+    color: rgba(55, 65, 77, 0.6);
+}
+
+.feedback-submit {
+    background-color: #D0EC63;
+    color: #37414D;
+    border: 1px solid #D0EC63;
+    border-radius: 0.625rem;
+    padding: 1rem;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.feedback-submit:hover {
+    background-color: transparent;
+    color: #D0EC63;
+}
+
+.feedback-status {
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+}
