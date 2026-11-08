@@ -439,6 +439,55 @@
         </div>
     </section>
 
+    <section class="feedback-section">
+        <div class="feedback-container">
+
+            <div class="feedback-info">
+                <h2 class="feedback-title">ОСТАЛИСЬ ВОПРОСЫ?</h2>
+                <p class="feedback-description">
+                    Напиши нам, и мы свяжемся с тобой,
+                    чтобы помочь разобраться во всех вопросах.
+                </p>
+            </div>
+
+            <form id="feedback-form" class="feedback-form">
+
+                <div class="feedback-group">
+                    <input
+                        type="text"
+                        name="user_name"
+                        placeholder="Твоё имя"
+                        required
+                    >
+                </div>
+
+                <div class="feedback-group">
+                    <input
+                        type="email"
+                        name="user_email"
+                        placeholder="Твоя электронная почта"
+                        required
+                    >
+                </div>
+
+                <div class="feedback-group">
+                    <textarea
+                        name="message"
+                        placeholder="Твоё сообщение"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="feedback-submit">
+                    ОТПРАВИТЬ
+                </button>
+
+                <p id="feedback-status" class="feedback-status"></p>
+
+            </form>
+        </div>
+    </section>
+
     <footer class="main-footer">
 
         <div class="footer-block block-1">
@@ -518,8 +567,12 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Скрипты сайта -->
     <script src="js/pop-up1.js" defer></script>
     <script src="js/sliders.js" defer></script>
+    <script src="js/email.js" defer></script>
 
 </body>
 </html>
